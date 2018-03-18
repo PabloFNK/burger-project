@@ -1,5 +1,5 @@
 import React from 'react';
-import AuxComp from 'hoc/Aux';
+import AuxComp from 'hoc/AuxComp';
 
 import classes from './Layout.css';
 
