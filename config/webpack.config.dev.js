@@ -93,7 +93,8 @@ module.exports = {
       'assets': path.resolve(__dirname, '../src/assets/'),
       'hoc': path.resolve(__dirname, '../src/hoc/'),
       'containers': path.resolve(__dirname, '../src/containers/'),
-      'components': path.resolve(__dirname, '../src/components/')
+      'components': path.resolve(__dirname, '../src/components/'),
+      'src': path.resolve(__dirname, '../src/')
     },
     plugins: [
       // Prevents users from importing files from outside of src/ (or node_modules/).
