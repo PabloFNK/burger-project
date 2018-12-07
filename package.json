@@ -1,9 +1,10 @@
 {
-  "name": "burger-project",
+  "name": "react-complete-guide",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "autoprefixer": "7.1.2",
+    "axios": "^0.16.2",
     "babel-core": "6.25.0",
     "babel-eslint": "7.2.3",
     "babel-jest": "20.0.3",
@@ -30,10 +31,12 @@
     "postcss-flexbugs-fixes": "3.2.0",
     "postcss-loader": "2.0.6",
     "promise": "8.0.1",
-    "prop-types": "^15.6.1",
+    "prop-types": "^15.6.0",
+    "r": "0.0.5",
     "react": "^16.0.0",
     "react-dev-utils": "^4.0.1",
     "react-dom": "^16.0.0",
+    "react-router-dom": "^4.2.2",
     "style-loader": "0.18.2",
     "sw-precache-webpack-plugin": "0.11.4",
     "url-loader": "0.5.9",
@@ -87,18 +90,5 @@
   },
   "eslintConfig": {
     "extends": "react-app"
-  },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
-  "main": "index.js",
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/PabloFNK/burger-project.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/PabloFNK/burger-project/issues"
-  },
-  "homepage": "https://github.com/PabloFNK/burger-project#readme"
+  }
 }

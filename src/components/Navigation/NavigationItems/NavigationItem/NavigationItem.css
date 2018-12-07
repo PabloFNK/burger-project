@@ -31,7 +31,6 @@
     .NavigationItem a {
         color: white;
         height: 100%;
-        width: auto;
         padding: 16px 10px;
         border-bottom: 4px solid transparent;
     }
